@@ -7,9 +7,11 @@ function BoardMember(name, homeState, training){
 BoardMember.prototype.veto = function() {
     return `No, I must disagree`;
 };
-//   this.veto = function(){
-//     return 'No, I must disagree'
-//   }
+
+BoardMember.prototype.approve = function() {
+    return 'You can do that!';
+};
+
 //   this.approve = function(){
 //     return 'You can do that!'
 //   }
